@@ -1,5 +1,5 @@
 require('@nomiclabs/hardhat-waffle');
-
+const secret = require("./env/secrets.json");
 
 module.exports = {
   solidity: "0.8.4",
